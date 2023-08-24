@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+	<title>Index.html</title>
+	
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Vehicle Data:</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		  	<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		  	<ul class="navbar-nav">
+				<li class="nav-item active">
+			  		<a class="nav-link" href="index.html">Q1: 5 Years of Vehicle Data</a>
+				</li>
+				<li class="nav-item">
+                    <a class="nav-link" href="allYearsDisplayed.html">Q2: Vehicles Registered Yearly</a>
+                </li>
+				<li class="nav-item">
+			  		<a class="nav-link" href="differencePrivateSecondVehicles.html">Q3: Priv & Sec Vehicle Diff</a>
+				</li>
+				<li class="nav-item">
+			  		<a class="nav-link" href="tracktorsPerMonth.html">Q4: Monthly Tractor Regs</a>
+				</li>
+                <li class="nav-item">
+                    <a class="nav-link" href="studentSelectedData.html">Q5: Student Selected</a>
+                </li>
+		  	</ul>
+		</div>
+	</nav>
+    <h1>Student Selected Data:</h1>
+	<h1>Motorcycles Registrations Per Month: (From: 2019M01 to 2023M01)</h1>
+	<div class="container"></div>
+	<!-- Load your scripts here -->
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<script src="studentSelectedData.js"></script>
+</body>
+</html>
